@@ -1,0 +1,80 @@
+.images{
+    position: relative;
+    left: 50%;
+    transform: translate(50%, 50%);
+    width: 100px;    
+    margin-top: 0px;
+    margin-left: -70px;
+}
+.divisao{
+
+
+margin-top: 50px;
+
+}
+.email_nome{
+
+    position: relative;
+    text-align: center;
+    padding-right: 15pc;
+}
+.nome_usuario{
+    margin-left: 300px;
+    margin-top: 100px;
+    font-family: Roboto,sans-serif;
+    position: center;
+}
+.email_quiz{
+font-family: Roboto,sans-serif;
+margin-top: 80px;
+margin-left: 300px;
+
+
+}
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+  .input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }
+  .nome{
+
+    margin-top: 30px;
+
+
+  }
+  h1{
+
+    font-size: medium;
+    margin-top: -70px;
+
+}
+h2{
+
+    font-size: medium;
+    margin-top: -70px;
+}
+.pergunta1{
+
+    margin-top: 50px;
+    font-family: Roboto,sans-serif;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+.pergunta2{
+
+margin-top: 10px;
+
+}
+

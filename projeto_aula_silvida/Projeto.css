@@ -1,0 +1,114 @@
+.images{
+        background-image: href="https://jc.ne10.uol.com.br/dist/assets/images/logo/logo-jc.svg";
+        position: relative;
+        left: 50%;
+        transform: translate(50%, 50%);
+        width: 100px;    
+        margin-top: 0px;
+        margin-left: -70px;
+}
+
+.texto{
+
+        position: relative;
+        font-family: Roboto,sans-serif;
+
+}
+hr{
+
+        position: relative;
+        margin-top: 25px;
+
+}
+.h1{
+     position: relative;  
+     font-size: 1.5625rem;   
+     font-family: Roboto,sans-serif;
+
+}
+h2{
+
+        font-size: medium;
+
+}
+h2:hover{
+
+        color: red;
+
+}
+h3{
+        font-size: medium;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: 600px;
+        margin-top: -300px;
+        font-family: Roboto,sans-serif;
+}
+h3:hover{
+
+        color: red;
+}
+h4{
+        font-size: x-small;
+        margin-left: 615px;
+        margin-top: -105px;
+        color: red;
+        font-family: Roboto,sans-serif;
+
+}
+h5{
+
+        font-size: x-small;
+        margin-left: 615px;
+        margin-top: 100px;
+        color: red;
+        font-family: Roboto,sans-serif;
+}
+h6{
+
+        font-size: medium;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: 600px;
+        margin-top: -10px;
+        font-family: Roboto,sans-serif;
+}
+h6:hover{
+
+        color: red;
+        
+}
+.zoom-container {
+        overflow: hidden;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: 355px;
+        margin-top: -90px;
+       transform: scale(0.5);
+      }
+      
+.zoom-container img {
+        transition: all 0.3s ease-in-out;
+      }
+      
+.zoom-container:hover img {
+        transform: scale(1.1);
+      }
+h7{
+        font-weight: bold;
+        color: red;
+        font-size: x-small;
+        font-family: roboto,sans-serif;
+        text-align:right;
+              
+}
+.head8{
+        font-family: sans-serif;
+        text-align: left;
+        font-weight: bold;
+
+}
