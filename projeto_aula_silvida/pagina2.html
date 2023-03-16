@@ -9,17 +9,25 @@
     <title>quiz</title>
 </head>
 <body>
-
+    <script>
+        function restaurarPagina() {
+          location.reload();
+          alert("Obrigado por responder o quiz!");
+        }
+      </script>
+    
     <div class="images">
         <img loading="lazy" src="https://jc.ne10.uol.com.br/dist/assets/images/logo/logo-jc.svg" alt="JC ONLINE">
     </div>
 
+    <div class="voltar">
     <button class="learn-more" onclick="window.location.href = 'projeto.html'">
         <span class="circle" aria-hidden="true">
             <span class="icon arrow"></span>
         </span>
         <span class="button-text">Voltar</span>
       </button>
+    </div>
 
     <div class="divisao">
         <hr>
@@ -76,5 +84,15 @@
     <input type="radio" name="checkbox">Não</input>
     </div>
 
+    <div class="texto">
+        <label for="texto1"> compartilhe conosco seu comentario sobre o quiz:</label><br>
+        <textarea id="comentario" name="comentario" placeholder="deixe aqui seu comentario" rows="5" cols="50"></textarea>
+    </div>
+        <div class="botao_enviar">
+      
+       <button class="btn" onclick="restaurarPagina()"> ENVIAR
+        </button>
+        
+    </div>
     </body>
     </html>
