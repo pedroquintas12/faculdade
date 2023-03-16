@@ -41,19 +41,19 @@ margin-left: 300px;
     transition: 300ms ease-in-out;
   }
   
-  .input:focus {
+.input:focus {
     background-color: white;
     transform: scale(1.05);
     box-shadow: 13px 13px 100px #969696,
                -13px -13px 100px #ffffff;
   }
-  .nome{
+.nome{
 
     margin-top: 30px;
 
 
   }
-  h1{
+h1{
 
     font-size: medium;
     margin-top: -70px;
@@ -81,6 +81,33 @@ text-align: center;
 margin-top: 50px;
 
 }
+.pergunta3{
+
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+.pergunta4{
+
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+.pergunta5{
+    
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    flex-direction: column;
+    
+}
+
+
 button {
     position: relative;
     display: inline-block;
@@ -95,12 +122,12 @@ button {
     font-family: inherit;
    }
    
-   button.learn-more {
+button.learn-more {
     width: 12rem;
     height: auto;
    }
    
-   button.learn-more .circle {
+button.learn-more .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
     display: block;
@@ -111,7 +138,7 @@ button {
     border-radius: 1.625rem;
    }
    
-   button.learn-more .circle .icon {
+button.learn-more .circle .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -120,7 +147,7 @@ button {
     background: #fff;
    }
    
-   button.learn-more .circle .icon.arrow {
+button.learn-more .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
     width: 1.125rem;
@@ -128,7 +155,7 @@ button {
     background: none;
    }
    
-   button.learn-more .circle .icon.arrow::before {
+button.learn-more .circle .icon.arrow::before {
     position: absolute;
     content: "";
     top: -0.29rem;
@@ -140,7 +167,7 @@ button {
     transform: rotate(45deg);
    }
    
-   button.learn-more .button-text {
+button.learn-more .button-text {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -157,26 +184,18 @@ button {
     font-family: Roboto,sans-serif;
    }
    
-   button:hover .circle {
+button:hover .circle {
     width: 100%;
    }
    
-   button:hover .circle .icon.arrow {
+button:hover .circle .icon.arrow {
     background: #fff;
     transform: translate(1rem, 0);
    }
    
-   button:hover .button-text {
+button:hover .button-text {
     color: #fff;
    }
-.pergunta3{
-
-    font-family: Roboto,sans-serif;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 50px;
-
-}
 .texto{
 
     text-align: center;
@@ -211,7 +230,7 @@ button {
     color: var(--color);
    }
    
-   .btn::after, .btn::before {
+.btn::after, .btn::before {
     content: '';
     display: block;
     height: 100%;
@@ -225,25 +244,26 @@ button {
     background-color: var(--color);
    }
    
-   .btn::before {
+.btn::before {
     top: -50%;
     left: -25%;
     transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
    }
    
-   .btn:hover::before {
+.btn:hover::before {
     transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
    }
    
-   .btn:hover::after {
+.btn:hover::after {
     transform: skew(45deg) translate(-50%, -50%);
-   }
+ }
    
-   .btn:hover {
+.btn:hover {
     color: var(--color2);
-   }
+ }
    
-   .btn:active {
+.btn:active {
     filter: brightness(.7);
     transform: scale(.98);
    }
+
