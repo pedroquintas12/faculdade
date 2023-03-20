@@ -104,10 +104,43 @@ margin-top: 50px;
     font-weight: bold;
     margin-top: 50px;
     flex-direction: column;
+    align-items: center ;
     
 }
+.pergunta6{
+
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center ;
+
+}
+.pergunta7{
+
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center ;
 
 
+}
+.perguntas input{
+
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+}
+.perguntas input:checked{
+
+    -webkit-appearance: none;
+    background-color: red;
+    border-radius: 20px;
+
+}
 button {
     position: relative;
     display: inline-block;
