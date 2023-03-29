@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="pagina3.css">
+</head>
+<script>
+    function restaurarPagina() {
+      location.reload();
+      alert("Você entrou na sua conta!");
+    }   
+      function restaurarPagina2(){
+        location.reload();
+      }
+    
+  </script>
+<body>
+    <div class="images">
+        <img loading="lazy" src="https://jc.ne10.uol.com.br/dist/assets/images/logo/logo-jc.svg" alt="JC ONLINE">
+    </div>
+    <button class="learn-more" onclick="window.location.href = 'projeto.html'">
+        <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">Voltar</span>
+    </button>
+</div>
+    <div class="divisao">
+        <hr>
+    </div>
+
+    <div class="Cadastro">
+    <div class="input-group">
+        <label class="label">Email</label>
+        <input autocomplete="off" name="Email" id="Email" class="input" type="email" placeholder="Digite aqui">
+        </div>
+
+    <div class="input-group">
+            <label class="label">Senha</label>
+            <input autocomplete="off" name="Email" id="Email" class="input" type="email" placeholder="Digite aqui">
+            </div>
+    </div>
+
+    <div class="botao_cadastro">
+    <button class="btn" onclick="restaurarPagina()"><a href="pagina2.html" style="color: red;">Entrar</a></button>
+    </button>
+    
+    <button class="btn"onclick="restaurarPagina2()"><a href="pagina4.html" style="color: red;">REGISTRAR</a> 
+    </button>
+
+</div>  
+</body>
+</html>

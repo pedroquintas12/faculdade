@@ -91,6 +91,7 @@ public static void main(String[] args) {
 		System.out.println("[1] Sim\n[2] Não ");
 		int ResEntrada = entrada.nextInt();
 		
+			
 		if(ResEntrada==1) {
 			String Nome;
 			System.out.println("Qual o seu nome?");
@@ -542,6 +543,11 @@ public static void main(String[] args) {
 				
 			}
 		
+		}
+			
+		
+
+		
 	}
 			
 		
@@ -549,5 +555,5 @@ public static void main(String[] args) {
 
 		
 		
-}
+
 	
