@@ -1,70 +1,17 @@
+function validarFormulario() {
+  var caixas = document.getElementsByClassName("input");
 
-function validarRegistro() {
-    var caixaRegistro = document.getElementById("caixa_registro").value;
-    if (caixaRegistro == "") {
-      alert("Por favor, preencha todos os campos");
+  for (var i = 0; i < caixas.length; i++) {
+    if (caixas[i].value == "") {
+      alert("Por favor, preencha todas as caixas.");
       return false;
     }
-    else{
-
-        location.reload();
-        alert("Vôce foi registrado!");
-        window.location.href="quiz.html"
-    }
 }
-  
-function validarRegistro() {
-  var caixaRegistro = document.getElementById("caixa_registro2").value;
-  if (caixaRegistro == "") {
-    alert("Por favor, preencha todos os campos");
-    return false;
-  }
-  else{
+if(caixas!= ""){
 
-      location.reload();
-      alert("Vôce foi registrado!");
-      window.location.href="quiz.html"
-  }
+  location.reload();
+  alert("Voce foi resgistrado!")
+  window.location.href="quiz.html"
+
 }
-
-function validarRegistro() {
-  var caixaRegistro = document.getElementById("caixa_registro3").value;
-  if (caixaRegistro == "") {
-    alert("Por favor, preencha todos os campos");
-    return false;
-  }
-  else{
-
-      location.reload();
-      alert("Vôce foi registrado!");
-      window.location.href="quiz.html"
-  }
-}
-
-function validarRegistro() {
-  var caixaRegistro = document.getElementById("caixa_registro4").value;
-  if (caixaRegistro == "") {
-    alert("Por favor, preencha todos os campos");
-    return false;
-  }
-  else{
-
-      location.reload();
-      alert("Vôce foi registrado!");
-      window.location.href="quiz.html"
-  }
-}
-
-function validarRegistro() {
-  var caixaRegistro = document.getElementById("caixa_registro5").value;
-  if (caixaRegistro == "") {
-    alert("Por favor, preencha todos os campos");
-    return false;
-  }
-  else{
-
-      location.reload();
-      alert("Vôce foi registrado!");
-      window.location.href="quiz.html"
-  }
 }

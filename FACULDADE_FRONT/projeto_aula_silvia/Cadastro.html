@@ -4,20 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="Cadastro.js"></script>
     <title>Cadastro</title>
     <link rel="stylesheet" href="Cadastro.css">
 </head>
-<script>
-    function restaurarPagina() {
-      location.reload();
-      alert("Você entrou na sua conta!");
-    }   
-      function restaurarPagina2(){
-        location.reload();
-      }
-    
-  </script>
+
 <body>
     <div class="images">
         <img loading="lazy" src="https://jc.ne10.uol.com.br/dist/assets/images/logo/logo-jc.svg" alt="JC ONLINE">
@@ -34,22 +25,20 @@
     </div>
 
     <div class="Cadastro">
-    <div class="input-group">
-        <label class="label">Email</label>
-        <input autocomplete="off" name="Email" id="Email" class="input" type="email" placeholder="Digite aqui">
-        </div>
 
-    <div class="input-group">
-            <label class="label">Senha</label>
-            <input autocomplete="off" name="Email" id="Email" class="input" type="email" placeholder="Digite aqui">
-            </div>
+        <label class="label">Email</label>
+        <input autocomplete="off" name="Email" id="caixa_registro" class="input" type="email" placeholder="Digite aqui">
+    
+        <label class="label">Senha</label>
+        <input autocomplete="off" name="Email" id="caixa_registro2" class="input" type="email" placeholder="Digite aqui">
+        
     </div>
 
     <div class="botao_cadastro">
-    <button class="btn" onclick="restaurarPagina()"><a href="Quiz.html" style="color: red;">Entrar</a></button>
+    <button class="btn" onclick="validarFormulario()">Entrar</button>
     </button>
     
-    <button class="btn"onclick="restaurarPagina2()"><a href="Registro.html" style="color: red;">REGISTRAR</a> 
+    <button class="btn"onclick="restaurarPagina()">REGISTRAR
     </button>
 
 </div>  

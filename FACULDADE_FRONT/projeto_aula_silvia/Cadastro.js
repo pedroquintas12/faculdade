@@ -1,15 +1,20 @@
 
-function validarRegistro() {
-    var caixaRegistro = document.getElementById("caixa_registro").value;
-    if (caixaRegistro == "") {
-      alert("Por favor, preencha todos os campos");
+function validarFormulario() {
+  var caixas = document.getElementsByClassName("input");
+
+  for (var i = 0; i < caixas.length; i++) {
+    if (caixas[i].value == "") {
+      alert("Por favor, preencha todas as caixas.");
       return false;
     }
-    else{
-
-        location.reload();
-        alert("Vôce foi entrou na conta!");
-        window.location.href="quiz.html"
-    }
 }
-  
+if(caixas!= ""){
+  location.reload();
+  window.location.href="quiz.html"
+
+}
+}
+function restaurarPagina() {
+  location.reload();
+  window.location.href="Registro.html"
+}   

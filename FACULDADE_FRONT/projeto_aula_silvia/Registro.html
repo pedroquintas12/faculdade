@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Registro.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Registro.css">
+        <script src="Registro.js"></script>
   
     <title>Registro</title>
 </head>
@@ -28,46 +29,31 @@
 <div class="divisao">
     <hr>
 </div>
-<div class="Cadastro">
 
-    <div class="input-group">
+<div class="Cadastro" id="caixa" >
+    <form action=""></form>
         <label class="label1">Nome</label>
-        <input autocomplete="off" name="Email" id="caixa_registro" class="input1 " type="email" placeholder="Digite aqui">
-        </div>
+        <input autocomplete="off" name="Email" id="caixa_registro" class="input " type="email" placeholder="Digite aqui">
     
-
-    <div class="input-group2">
-            <label class="label">Email</label>
-            <input autocomplete="off" name="Email" id="caixa_registro2" class="input" type="email" placeholder="Digite aqui">
-            </div>
+        <label class="label">Email</label>
+        <input autocomplete="off" name="Email" id="caixa_registro" class="input" type="email" placeholder="Digite aqui">
             
-            <div class="input-group2">
-                <label class="label">Confirmar Email</label>
-                <input autocomplete="off" name="Email" id="caixa_registro3" class="input" type="email" placeholder="Digite aqui">
-                </div>
+        <label class="label">Confirmar Email</label>
+        <input autocomplete="off" name="Email" id="caixa_registro" class="input" type="email" placeholder="Digite aqui">
 
-                <div class="input-group2">
-                <label class="label">Senha</label>
-                <input autocomplete="off" name="Email" id="caixa_registro4" class="input" type="email" placeholder="Digite aqui">
-                </div>
-
-                <div class="input-group2">
-                    
-                    <label class="label">Confirmar Senha</label>
-                    <input autocomplete="off" name="caixa_registro" id="caixa_registro5" class="input" type="email" placeholder="Digite aqui">
-                   
-                </div>
-            </div>
+        <label class="label">Senha</label>
+        <input autocomplete="off" name="Email" id="caixa_registro" class="input" type="email" placeholder="Digite aqui">
+                
+        <label class="label">Confirmar Senha</label>
+        <input autocomplete="off" name="caixa_registro" id="caixa_registro" class="input" type="email" placeholder="Digite aqui">
+                      
+        </div>
 
             <div class="botao">
-            <div class="botao_cadastro">
-                <button class="btn" onclick= validarRegistro()>Entrar</button>
-                </button>
-            </div>
+                <div class="botao_cadastro">
+                    <button class="btn" onclick="validarFormulario()">Entrar</button>
+              </button>
         </div>
-    </div>
-
-<script src="Registro.js"></script>
 
 </body>
 </html>
