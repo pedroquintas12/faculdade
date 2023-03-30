@@ -117,7 +117,8 @@ button:hover .button-text {
     font-weight: bold;
     color: #05060f99;
     transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
-    padding-bottom: 2px;
+    padding-top: 1%;
+
     
 
   }
@@ -137,7 +138,9 @@ button:hover .button-text {
     font-family:Roboto,sans-serif;
     font-weight: bolder;
     position: relative;
-    padding-top: 5%;
+    padding-top: 2%;
+    margin-left: 70px;
+
   }
 
   .btn {
@@ -199,5 +202,5 @@ button:hover .button-text {
 
     padding-top: 2%;
     text-align: center;
-
+    margin-left: 70px;
 }

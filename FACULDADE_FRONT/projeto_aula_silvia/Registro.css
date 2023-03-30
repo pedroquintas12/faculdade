@@ -123,18 +123,7 @@ button:hover .button-text {
     
     
 }
-.label1 {
-    display: block;
-    margin-bottom: .3rem;
-    font-size: .9rem;
-    font-weight: bold;
-    color: #05060f99;
-    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
-    padding-bottom: 6px;
-    
-    
 
-  }
    
    .label {
     display: block;
@@ -159,10 +148,11 @@ button:hover .button-text {
   }
 
   .Cadastro{
-
     text-align: center;
-    padding-top: 3%;
-
+    padding-top: 1%;
+    margin-left: 70px;
+    font-family: Roboto,sans-serif;
+    
   }
   .btn {
     --color: red;
@@ -223,4 +213,5 @@ button:hover .button-text {
 
     text-align: center;
     padding-top: 1%;
+    margin-left: 70px;
 }
