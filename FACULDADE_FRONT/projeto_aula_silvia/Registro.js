@@ -14,4 +14,13 @@ if(caixas!= ""){
   window.location.href="quiz.html"
 
 }
+
+var idade = document.getElementsByClassName("input")
+
+if  (idade<18){
+
+  alert("Você é menor de idade")
+
+}
+
 }
