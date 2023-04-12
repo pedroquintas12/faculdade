@@ -241,9 +241,8 @@ button:hover .button-text {
     text-align: center;
     font-family: Roboto,sans-serif;
     font-weight: bold;
-
-
 }
+
 .btn {
     --color: red;
     --color2:white;

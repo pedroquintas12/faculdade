@@ -8,14 +8,9 @@
     <link rel="icon" type="image/png" href="https://jc.ne10.uol.com.br/dist/assets/images/logo/logo-jc.svg">
     <link rel="script" href="script.js">
     <title>quiz</title>
+    <script src="Quiz.js"></script>
 </head>
 <body>
-    <script>
-        function restaurarPagina() {
-          location.reload();
-          alert("Obrigado por responder o quiz!");
-        }
-      </script>
     
     <div class="images">
         <img loading="lazy" src="https://jc.ne10.uol.com.br/dist/assets/images/logo/logo-jc.svg" alt="JC ONLINE">
@@ -116,11 +111,15 @@
         <label for="texto1"> compartilhe conosco seu comentario sobre o quiz:</label><br>
         <textarea id="comentario" name="comentario" placeholder="deixe aqui seu comentario" rows="5" cols="50"></textarea>
     </div>
+
         <div class="botao_enviar">
-      
-       <button class="btn" onclick="restaurarPagina()"> ENVIAR
-        </button>
+        <button class="btn" onclick="continarPagina()"> ENVIAR
+        </button> 
         
-    </div>
+        <button class="btn" onclick="restaurarPagina()"> Reinicar
+        </button> 
+         </div>
+    
+
     </body>
     </html>
