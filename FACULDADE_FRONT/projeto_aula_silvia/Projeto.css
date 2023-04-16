@@ -7,11 +7,10 @@
         margin-left: -70px;
     }
     .divisao{
-    
-    
     margin-top: 20px;
     
 }
+
 button {
         position: relative;
         display: inline-block;
@@ -102,20 +101,20 @@ button {
        }
     
    .cb_top{
-        padding-top: 50px;
         text-align: center;
         font-family: Roboto,sans-serif;
       
    }
    .text_top{
-
-        text-align: left;
-        padding-left: 500px;
+    border-radius: 10px;
+        background-color:#b0c4de;
+        text-align: center;
+        padding-left: 400px;
         max-width: 600px;
 
    }
    h1{
-
+        
         font-size: medium;
         color: red;
 
@@ -144,3 +143,31 @@ button {
 padding-left: 20px;   
 width: 500px;
 }
+.tabela1{
+    align-items: center;
+    text-align: left;
+    margin-top: -7500px;
+    border-color: red;
+}
+table{
+
+    border-collapse: collapse;
+    width: 20%;
+}
+th,td{
+
+    border: 1px red;
+    padding: 8px;
+    text-align: left;
+
+}
+th,td{
+    border-color: red;
+}
+.lista{
+
+    text-align: left;
+
+}
+
+
