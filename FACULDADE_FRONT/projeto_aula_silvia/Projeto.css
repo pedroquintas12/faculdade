@@ -100,3 +100,47 @@ button {
     button:hover .button-text {
         color: #fff;
        }
+    
+   .cb_top{
+        padding-top: 50px;
+        text-align: center;
+        font-family: Roboto,sans-serif;
+      
+   }
+   .text_top{
+
+        text-align: left;
+        padding-left: 500px;
+        max-width: 600px;
+
+   }
+   h1{
+
+        font-size: medium;
+        color: red;
+
+   }
+   h2:hover{
+
+    color: red;
+
+   }
+.zoom-container {
+    overflow: hidden;
+   transform: scale(1);
+  }
+  
+.zoom-container img {
+    transition: all 0.3s ease-in-out;
+    
+    
+  }
+  
+.zoom-container:hover img {
+    transform: scale(1.1);
+  }
+  
+.imagens{
+padding-left: 20px;   
+width: 500px;
+}
