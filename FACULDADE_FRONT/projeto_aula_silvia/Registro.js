@@ -18,10 +18,10 @@ function validarFormulario() {
 
   if (idade >= 18) {
       alert("Você é maior de idade.");
+      
   } else {
       alert("Você é menor de idade.");
-      location.reload();
-      return false    
+      return false
     }
 
 
@@ -35,7 +35,7 @@ function validarFormulario() {
 }
 if(caixas!= ""){
 
-  location.reload();
+  location.reload(); 84 
   alert("Voce foi resgistrado!")
   window.location.href="quiz.html"
 
